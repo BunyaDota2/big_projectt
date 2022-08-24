@@ -14,6 +14,7 @@ class _DigListState extends State<DigList> {
     final List<String> items = List<String>.generate(5, (i) => 'Item $i');
     return ListView.builder(
       scrollDirection: Axis.vertical,
+      shrinkWrap: true,
       itemCount: items.length,
       itemBuilder: (context, index) {
         return Card(

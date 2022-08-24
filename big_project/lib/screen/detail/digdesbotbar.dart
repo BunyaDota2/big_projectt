@@ -15,7 +15,7 @@ class _PriceBuyState extends State<PriceBuy> {
   Widget build(BuildContext context) {
     return Container(
       width: double.infinity,
-      height: 100,
+      height: 90,
       color: Colors.white,
       child: Row(
         children: [
